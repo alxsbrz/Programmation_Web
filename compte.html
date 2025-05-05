@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compte</title>
+    <link rel="stylesheet" href="acceuil.css" />
+  </head>
+  <body>
+    <h1>COMPTE</h1>
+    <div id="compte-info">
+      <p>Username : <div id="username"></div></p>
+      <p>Email : <div id="email"></div></p>
+      <p>Password : <div id="password"></div></p>
+      <p>Rôle :</p>
+        <p>Traducteur : <div id="translator"></div></p>
+        <p>Chef : <div id="chef"></div></p>
+        <p>Administrateur : <div id="administrator"></div></p>
+    </div>
+    
+    <button id="modifier-btn">Modifier</button>
+    
+    <form id="modifier-form" style="display: none;" method="post" action="/modifierCompte">
+
+      <label for="password-modifier">Password :</label>
+      <input type="password" id="password-modifier" value=""><br><br>
+      <label for="username-modifier">Username :</label>
+      <input type="text" id="username-modifier" value=""><br><br>
+      <label for="translator-modifier">Traducteur :</label>
+      <select id="translator-modifier">
+        <option value="on">Oui</option>
+        <option value="off">Non</option>
+      </select><br><br>
+      <label for="chef-modifier">Chef :</label>
+      <select id="chef-modifier">
+        <option value="on">Oui</option>
+        <option value="off">Non</option>
+      </select><br><br>
+      <label for="administrator-modifier">Administrateur :</label>
+      <select id="administrator-modifier">
+        <option value="on">Oui</option>
+        <option value="off">Non</option>
+      </select><br><br>
+      <button id="enregistrer-btn">Enregistrer</button>
+    </form>
+    <button id="home-button" style="margin-top: 20px;">Retour à l'Accueil</button>
+    <button id="login-button" style="margin-top: 20px;">Deconnexion</button>
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="compte.js"></script>
+  </body>
+</html>

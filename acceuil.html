@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recettes de Cuisine</title>
+    <link rel="stylesheet" href="acceuil.css" />
+  </head>
+  <body>
+    <header>
+      <div id="email_utilisateur"></div>
+      <button id="option-compte" onclick="window.location.href='compte.html'">Option compte</button>
+    </header>
+    <div class="card">
+      <h1 class="title">Bienvenue sur Recettes de Cuisine</h1>
+      <p class="description">Découvrez des recettes délicieuses et faciles à préparer</p>
+      <div class="search-bar">
+        <input type="search" id="search-input" placeholder="Rechercher des recettes...">
+        <button id="search-button">Rechercher</button>
+      </div>
+      <div class="search-results" id="search-results"></div>
+      <div class="feature-group">
+        <div class="feature">
+          <h2 class="feature-title">Découvrez des recettes</h2>
+          <p class="feature-description">Trouvez des recettes délicieuses et faciles à préparer</p>
+        </div>
+        <div class="feature">
+            <a href="newrecipies.html" class="button">Créer une recette</a>
+        </div>
+        <div class="feature">
+          <h2 class="feature-title">Rejoignez la communauté</h2>
+          <p class="feature-description">Rejoignez notre communauté de passionnés de cuisine</p>
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="acceuil.js"></script>
+  </body>
+</html>

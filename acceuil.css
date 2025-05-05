@@ -1,0 +1,129 @@
+/* Styles communs aux deux pages */
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature {
+    background-color: #555;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feature-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #666;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /* Styles pour la page d'accueil */
+  
+  header {
+    background-color: #444;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  #email_utilisateur {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #option-compte {
+    background-color: #555;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    background-color: #555;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #search-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  #search-button {
+    background-color: #666;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Styles pour la page de compte */
+  
+  #compte-info {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #compte-info div {
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
